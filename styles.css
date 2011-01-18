@@ -84,11 +84,12 @@ nav li {
     display: inline;
 }
 
-ul.icons {
+ul.icons, ul.mailing-list {
     list-style: none;
+    margin: 10px;
 }
 
-ul.icons li {
+ul.icons li, ul.mailing-list li {
     display: inline;
 }
 
@@ -127,6 +128,9 @@ section.blurb {
     float: left;
     width: 250px;
     padding-top: 20px;
+}
+
+section.blurb ul {
     text-align: center;
 }
 
