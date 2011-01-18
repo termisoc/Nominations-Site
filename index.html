@@ -9,13 +9,12 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
-		<link rel="stylesheet" media="all" href=""/>
+		<link rel="stylesheet" media="all" href="styles.css"/>
 		<meta name="viewport" content="width=device-width; initial-scale=1"/>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
 	</head>
 
 	<body>
-		<section>
 			<header>
 				<div class="logo">termisoc.org</div>
 
@@ -26,26 +25,28 @@
 						<li>contact</li>
 					</ul>
 				</nav>
+				<div class="clear"></div>
 			</header>
 
-			<section>
+			<section class="blurb">
 				<footer>
-					<p>blurb</p>
-					<ul>
-						<li>twitter</li>
-						<li>facebook</li>
-						<li>rss</li>
+					<p>We are TermiSoc, the University of Plymouth Computing Society.</p>
+					<ul class="icons">
+						<li><img src="images/twitter_32.png" alt="Twitter" width="32px" height="32px"></li>
+						<li><img src="images/facebook_32.png" alt="Facebook" width="32px" height="32px"></li>
+						<li><img src="images/rss_32.png" alt="RSS" width="32px" height="32px"></li>
 					</ul>
-					<p>mailing list</p>
+					<p><input type="email" name="mailing_list" placeholder="person@example.com"></p>
 				</footer>
+			</section>
 
-				<section>
+				<section class="recent-posts">
 					<header>
 						<h2>recent posts</h2>
 					</header>
 					<article>
 						<header>
-							<h2>Title</h2>
+							<h3>Title</h3>
 						</header>
 						
 						<p>Description</p>
@@ -57,10 +58,10 @@
 				</section>
 			</section>
 
-			<footer>
-				<small>content copyright termisoc 2011. design and source on github.</small>
+			<footer class="page">
+				<div class="clear"></div>
+				<small>Content Copyright TermiSoc 2011. Design and Source on GitHub.</small>
 			</footer>
-		</section>
 	</body>
 	
 </html>

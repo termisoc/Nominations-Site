@@ -1,7 +1,9 @@
-/*	Less Framework 3
+/*	
+    termisoc.org theme, created by
+    Nick Charlton, based upon
+    Less Framework 3
 	by Joni Korpi
 	http://lessframework.com	*/
-
 
 /*	Resets
 	------	*/
@@ -63,6 +65,28 @@ figure img {width: 100%;}
 	line-height: 18px;
 } 
 
+/* Global Structural Elements */
+
+.clear {
+    clear: both;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+}
+
+ul.icons {
+    list-style: none;
+}
+
+ul.icons li {
+    display: inline;
+}
 
 /*	Default 8-column layout
 	60 px columns, 24 px gutters, 60 px margins, 768 px total
@@ -72,9 +96,38 @@ figure img {width: 100%;}
 
 body {
 	background: rgb(232,232,232);
-	padding: 84px 60px 0;
+	padding: 40px 40px 0;
 	width: 648px;
 	-webkit-tap-highlight-color: rgb(255,255,0);
+}
+
+header div.logo {
+    width: 250px;
+    height: 75px;
+    float: left;
+    border: 1px solid #999;
+}
+
+header nav {
+    float: left;
+    padding: 0px 25px 0px 25px;
+}
+
+section.blurb {
+    float: left;
+    width: 250px;
+    padding-top: 20px;
+}
+
+section.recent-posts {
+    float: left;
+    padding: 0px 25px 0px 25px;
+}
+
+footer.page {
+    padding-top: 20px;
+    text-align: center;
+    text-transform: lowercase;
 }
 
 ::selection 	 	{background: rgb(255,255,0);}
