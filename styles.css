@@ -57,7 +57,11 @@ figure img {width: 100%;}
 }
 
 .normal, body {
-	font: 16px/24px Helvetica, Arial, sans-serif;
+	font: 16px/24px Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: “Helvetica Neue”, Helvetica, Arial, sans-serif;
 }
 
 .small {
@@ -96,10 +100,16 @@ ul.icons li {
 
 body {
 	background: rgb(232,232,232);
-	padding: 40px 40px 0;
+	padding: 84px 60px 0;
 	width: 648px;
+	margin: 0 auto;
 	-webkit-tap-highlight-color: rgb(255,255,0);
 }
+
+::selection 	 	{background: rgb(255,255,0);}
+::-moz-selection 	{background: rgb(255,255,0);}
+img::selection 		{background: transparent;}
+img::-moz-selection {background: transparent;}
 
 header div.logo {
     width: 250px;
@@ -117,6 +127,7 @@ section.blurb {
     float: left;
     width: 250px;
     padding-top: 20px;
+    text-align: center;
 }
 
 section.recent-posts {
@@ -125,19 +136,9 @@ section.recent-posts {
 }
 
 footer.page {
-    padding-top: 20px;
+    margin-top: 50px;
     text-align: center;
     text-transform: lowercase;
-}
-
-::selection 	 	{background: rgb(255,255,0);}
-::-moz-selection 	{background: rgb(255,255,0);}
-img::selection 		{background: transparent;}
-img::-moz-selection {background: transparent;}
-
-#example {
-	height: 600px;
-	background: rgb(60,97,158);
 }
 
 
@@ -150,8 +151,9 @@ img::-moz-selection {background: transparent;}
 @media only screen and (min-width: 1212px) {
 	
 	body {
-		padding: 96px 72px 0;
+		padding: 50px 0px 0;
 		width: 1068px;
+		margin: 0 auto;
 	}
 	
 }
