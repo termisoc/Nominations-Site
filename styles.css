@@ -118,7 +118,7 @@ body {
 }
 
 div.container {
-    background: rgb(232,232,232);
+    /*background: rgb(232,232,232);*/
     padding: 20px;
 }
 
@@ -132,17 +132,19 @@ header div.logo {
     height: 75px;
     float: left;
     border: 1px solid #999;
+    background: rgb(232,232,232);
 }
 
 header nav {
     float: right;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 20px 0px 10px;
 }
 
 section.blurb {
+    background: rgb(232,232,232);
     float: left;
     width: 250px;
-    padding-top: 20px;
+    padding: 20px 5px 5px 5px;
 }
 
 section.blurb ul {
@@ -152,6 +154,26 @@ section.blurb ul {
 section.recent-posts {
     float: left;
     padding: 0px 25px 0px 25px;
+}
+
+section.recent-posts header h2 {
+    text-align: right;
+}
+
+section.recent-posts article {
+    width: 690px;
+    padding: 10px;
+}
+
+section.recent-posts article:hover {
+    background: rgb(232,232,232);
+}
+
+section.recent-posts article footer {
+    font-style: italic;
+    font-size: 13px;
+	line-height: 18px;
+	text-align: right;
 }
 
 footer.page {
