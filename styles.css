@@ -84,6 +84,17 @@ nav li {
     display: inline;
 }
 
+header nav ul li {
+    margin: 20px;
+    padding: 10px;
+    background-color: #DDDDDD;
+}
+
+header nav ul li:hover {
+    background-color: #777;
+    padding: 10px;
+}
+
 ul.icons, ul.mailing-list {
     list-style: none;
     margin: 10px;
@@ -100,11 +111,15 @@ ul.icons li, ul.mailing-list li {
 	60px  144px  228px  312px  396px  480px  564px  648px	*/
 
 body {
-	background: rgb(232,232,232);
 	padding: 84px 60px 0;
 	width: 648px;
 	margin: 0 auto;
 	-webkit-tap-highlight-color: rgb(255,255,0);
+}
+
+div.container {
+    background: rgb(232,232,232);
+    padding: 20px;
 }
 
 ::selection 	 	{background: rgb(255,255,0);}
@@ -120,8 +135,8 @@ header div.logo {
 }
 
 header nav {
-    float: left;
-    padding: 0px 25px 0px 25px;
+    float: right;
+    padding: 0px 10px 0px 10px;
 }
 
 section.blurb {
