@@ -1,9 +1,9 @@
-termisoc.org Wordpress Theme
-============================
+termisoc.org 
+============
 
-This is the termisoc.org Wordpress theme.
+This is the main termisoc.org website. It currently consists of a temporary exec nominations site preparing for the 2011-2012 academic year.
 
-The CSS is based around [Less Framework 3](http://lessframework.com/), and made working with [Wordpress](http://wordpress.org/) 3.0.4. The design uses features of HTML5 and CSS3, but provides (basic) fallbacks for non-modern browsers. There is a mobile view facilitated through media queries.
+The HTML/CSS is based around [Less Framework](http://lessframework.com/). The design uses features of HTML5 and CSS3, but provides (basic) fallbacks for non-modern browsers. There is a mobile view facilitated through media queries.
 
 Originally designed and coded by [Nick Charlton](http://nickcharlton.net/).
 Licensed under the MIT license (below).
