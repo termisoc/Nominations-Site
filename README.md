@@ -1,12 +1,32 @@
-termisoc.org 
-============
+termisoc.org - nominations site
+===============================
 
-This is the main termisoc.org website. It currently consists of a temporary exec nominations site preparing for the 2011-2012 academic year.
+This is the HTML, CSS and PHP which was used for the exec nominations for the 2011-2012 academic year.
 
 The HTML/CSS is based around [Less Framework](http://lessframework.com/). The design uses features of HTML5 and CSS3, but provides (basic) fallbacks for non-modern browsers. There is a mobile view facilitated through media queries.
 
 Originally designed and coded by [Nick Charlton](http://nickcharlton.net/).
 Licensed under the MIT license (below).
+
+Usage
+-----
+
+This file depends upon a second file named `db-config.php`. It should define the database settings, similar to:
+
+	// Define a set of global constants
+	define("DBHOST", "");
+	define("DBUSER", "");
+	define("DBPASS", "");
+	define("DB", "");
+
+It also requires a database holding the values of:
+
+Field	Type	Extra
+id	int(50)	auto_inc
+name	varchar(50)
+email	varchar(50)
+position	varchar(50)
+second	varchar(50)
 
 Licence
 -------
